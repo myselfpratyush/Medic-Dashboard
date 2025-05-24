@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.logo .dot {
+  color: #3b82f6;
+}
+
+.search input {
+  background: #f1f5f9;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 250px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.add-btn {
+  background-color: #3b82f6;
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: default;
+}
