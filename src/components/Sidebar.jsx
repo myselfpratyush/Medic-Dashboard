@@ -6,10 +6,12 @@ function Sidebar() {
   return (
     <div>
         <aside className="sidebar">
-      <h2 className="sidebar-title">General</h2>
+      <div className="logo">Healthcare<span className="dot">.</span></div>
       <ul className="nav-list">
-        {navigationLinks.map((link, index) => (
-          <li key={index}><a href="#">{link}</a></li>
+        {navigationLinks.map((item) => (
+          <li key={item.key}>
+            <span>{item.icon}</span>
+            <a href="#">{item.label}</a></li>
         ))}
       </ul>
     </aside>

@@ -28,3 +28,23 @@ export const appointmentCards = [
     time: "Oct 15, 2021 - 3:00 PM"
   }
 ];
+
+import { Stethoscope, Eye, HeartPulse, Brain } from 'lucide-react';
+
+
+export const upcomingAppointments = [
+  {
+    day: "On Thursday",
+    appointments: [
+      { title: "Health Checkup Complete", time: "09:00 AM", icon: Stethoscope },
+      { title: "Ophthalmologist", time: "11:00 AM", icon: Eye }
+    ]
+  },
+  {
+    day: "On Saturday",
+    appointments: [
+      { title: "Cardiologist", time: "10:30 AM", icon: HeartPulse },
+      { title: "Neurologist", time: "02:00 PM", icon: Brain }
+    ]
+  }
+];

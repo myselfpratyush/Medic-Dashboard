@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
    <header className="header">
-      <div className="logo">Healthcare<span className="dot">.</span></div>
+      
       <div className="search">
         <input type="text" placeholder="Search..." readOnly />
       </div>
