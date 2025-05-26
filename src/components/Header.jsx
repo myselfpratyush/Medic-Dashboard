@@ -14,7 +14,7 @@ function Header({onToggleSidebar}) {
       <div className="header-icons">
         <Bell size={20} className="bell-icon" />
         <div className="profile">
-          <img src="src\assets\836.jpg" alt="User"  />
+          <img src="src\assets\user-logo.jpg" alt="User"  />
         </div>
         <button className="add-btn"><Plus size={20} /></button>
       </div>
