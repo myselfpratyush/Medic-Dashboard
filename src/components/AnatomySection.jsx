@@ -2,6 +2,7 @@ import React from 'react'
 import './AnatomySection.css';
 import { healthStatus } from '../data/healthdata';
 import  anatomylogo from '../assets/human-body.jpg'
+import HealthStatusCard from './HealthStatusCard';
 
 function AnatomySection() {
   return (
@@ -12,12 +13,7 @@ function AnatomySection() {
         className="anatomy-image"
       />
       <div className="indicators">
-        {healthStatus.map((item) => (
-          <div key={item.label} className={`indicator ${item.status.toLowerCase()}`}>
-            <span className="dot" style={{ backgroundColor: item.color }}></span>
-            <span className="label">{item.label}</span>
-          </div>
-        ))}
+        <HealthStatusCard/>
       </div>
     </section>
   )

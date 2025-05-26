@@ -1,12 +1,32 @@
 .sidebar {
-  width: 220px;
-  background-color: #f8fafc;
-  padding: 1.5rem;
-  border-right: 1px solid #e2e8f0;
+  width: 240px;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+ height: fit-content;
+}
+.sidebar.hide {
+  transform: translateX(-100%);
+  position: absolute;
+  left: 0;
+  top: 0;
   height: 100vh;
-  text-align: center;
+  z-index: 999;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:cyan;
+  margin: 10px;
 }
 
+.logo .dot {
+  color: #3b5af6;
+}
+
+.sidebar.show {
+  transform: translateX(0);
+}
 .sidebar-title {
   font-weight: 600;
   font-size: 1rem;
@@ -17,11 +37,12 @@
 .nav-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top:50px ;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  
 }
 
 .nav-list li {
@@ -29,7 +50,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-   color: #475569;
+  color: #475569;
 }
 .nav-list li a {
   display: flex;
@@ -44,9 +65,3 @@
 .nav-list li a:hover {
   color: #2563eb;
 }
-
-/* .nav-list a {
-  color: #64748b;
-  text-decoration: none;
-  font-weight: 500;
-} */

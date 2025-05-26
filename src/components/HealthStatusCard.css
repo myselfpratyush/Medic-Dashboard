@@ -35,7 +35,10 @@
   font-size: 0.875rem;
   font-weight: 500;
 }
-
+.card-header img{
+  height: 40px;
+  width: 50px;
+}
 .card-footer {
   display: flex;
   justify-content: space-between;

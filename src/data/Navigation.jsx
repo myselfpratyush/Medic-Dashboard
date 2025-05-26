@@ -7,6 +7,9 @@ import { MdHistory } from "react-icons/md";
 import { IoCalendarNumber } from "react-icons/io5";
 import { BsFillFileEarmarkBarGraphFill } from "react-icons/bs";
 import { RiFolderAddFill } from "react-icons/ri";
+import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+import { IoIosCall } from "react-icons/io";
+import { IoIosSettings } from "react-icons/io";
 
 export const navigationLinks = [
  {
@@ -39,5 +42,21 @@ export const navigationLinks = [
    icon:<BsFillFileEarmarkBarGraphFill />
 
  },
+  {
+   key:'chat',
+   label:'Chat',
+   icon:<IoChatbubbleEllipsesOutline />
+
+ },
+ {
+   key:'support',
+   label:'Support',
+   icon:<IoIosCall />
+ },
+ {
+   key:'setting',
+   label:'Setting',
+   icon:<IoIosSettings />
+ }
 ];
 

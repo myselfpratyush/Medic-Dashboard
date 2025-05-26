@@ -8,7 +8,7 @@ function HealthStatusCard() {
       {healthCards.map((card) => (
         <div key={card.id} className="health-card">
           <div className="card-header">
-            <span className="card-title">{card.title}</span>
+            <img src={card.image} alt="Dentist"  />
             <span className="card-status" style={{ color: card.color }}>
               {card.status}
             </span>
