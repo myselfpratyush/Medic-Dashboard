@@ -24,7 +24,6 @@
 .calendar-cell {
   background-color: #f8fafc;
   border-radius: 0.75rem;
-  /* padding: 0.75rem 0.5rem; */
   min-height: 60px;
   display: flex;
   flex-direction: column;
